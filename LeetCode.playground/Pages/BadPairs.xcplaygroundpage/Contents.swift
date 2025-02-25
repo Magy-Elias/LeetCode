@@ -1,6 +1,8 @@
+//: [Previous](@previous)
+
 import Foundation
 
-class Solution {
+class BadPairs {
     func countBadPairs(_ nums: [Int]) -> Int {
         var pairs: [Int: Int] = [:]
         var goodPairsCount = 0
@@ -19,6 +21,9 @@ class Solution {
     
 }
 
-var sol = Solution()
-print(sol.countBadPairs([4,1,3,3]))
-print(sol.countBadPairs([1,2,3,4,5]))
+var badPairs = BadPairs()
+print(badPairs.countBadPairs([4,1,3,3]))
+print(badPairs.countBadPairs([1,2,3,4,5]))
+
+
+//: [Next](@next)

@@ -1,6 +1,8 @@
+//: [Previous](@previous)
+
 import Foundation
 
-class Solution {
+class Sum {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
         for i in 0..<nums.count {
@@ -16,7 +18,9 @@ class Solution {
     }
 }
 
-var sol = Solution()
-print(sol.twoSum([2,7,11,15], 9))
-print(sol.twoSum([3,2,4], 6))
-print(sol.twoSum([3,3], 6))
+var sum = Sum()
+print(sum.twoSum([2,7,11,15], 9))
+print(sum.twoSum([3,2,4], 6))
+print(sum.twoSum([3,3], 6))
+
+//: [Next](@next)
