@@ -22,7 +22,7 @@
 
 import Foundation
 
-class Solution {
+class MedianOfSortedArrays {
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
         var arr = (nums1 + nums2).sorted()
         var totalCount = arr.count
@@ -38,9 +38,9 @@ class Solution {
     }
 }
 
-var sol = Solution()
-print(sol.findMedianSortedArrays([1,3], [2]))
-print(sol.findMedianSortedArrays([1,2], [3,4]))
-print(sol.findMedianSortedArrays([2,2,4,4], [2,2,2,4,4]))
+var medianOfSortedArrays = MedianOfSortedArrays()
+print(medianOfSortedArrays.findMedianSortedArrays([1,3], [2]))
+print(medianOfSortedArrays.findMedianSortedArrays([1,2], [3,4]))
+print(medianOfSortedArrays.findMedianSortedArrays([2,2,4,4], [2,2,2,4,4]))
 
 //: [Next](@next)
